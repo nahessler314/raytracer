@@ -1,0 +1,29 @@
+{
+    "scene": {"type": "union",
+        "children": [
+            {"type": "plane",
+              "scale": 1,
+              "center": {"y": 4, "z": -0.5},
+              "normal": {"y": -1},
+              "material": {"type": "textured","reflectiveness": 0.2, "texture": "rickroll.jpg"}
+             },
+             {"type": "triangle",
+             "v1": {"x": -1, "y": 2, "z": 0.25},
+             "v2": {"x": -1, "y": 2, "z": -0.25},
+             "v3": {"x": 1, "y": 2, "z": 0.25},
+             "tex1": {"u": 0, "v": 0},
+             "tex2": {"u": 0, "v": 1},
+             "tex3": {"u": 1, "v": 0},
+             "material": {"type": "textured", "texture": "rickrolled.png"}},
+             {"type": "triangle",
+             "v1": {"x": -1, "y": 2, "z": -0.25},
+             "v2": {"x": 1, "y": 2, "z": -0.25},
+             "v3": {"x": 1, "y": 2, "z": 0.25},
+             "tex1": {"u": 0, "v": 1},
+             "tex2": {"u": 1, "v": 1},
+             "tex3": {"u": 1, "v": 0},
+             "material": {"type": "textured", "texture": "rickrolled.png"}}
+             ]},
+             "reflections": 2,
+    "lighting": {"lights": [{"position": {"z": 0}}]}
+ }

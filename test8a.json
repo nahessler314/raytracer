@@ -1,0 +1,11 @@
+{
+   "scene": {"type": "triangle",
+                 "v1": {"x": -17, "y": 20, "z": -15},
+                 "v2": {"x": 7, "y": 20, "z": -15},
+                 "v3": {"x": -17, "y": 20, "z": 5},
+                 "tex1": {"u": 0, "v": 1},
+                 "tex2": {"u": 1, "v": 1},
+                 "tex3": {"u": 0, "v": 0},
+                 "material": {"type": "textured", "texture": "crate.png"}},
+    "lighting": {"lights": [{"position": {"x": 0, "y": 5, "z": 10}}]}
+}

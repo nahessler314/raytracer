@@ -1,0 +1,13 @@
+{
+   "scene": {
+             "type": "intersection",
+             "children": [
+              {
+               "type": "plane",
+               "center": {"x": 0, "y": 5, "z": -2},
+               "normal": {"x": 0.1, "y": 0.8, "z": -0.3},
+               "material": {"color": {"g": 255}}
+              }]
+            },
+   "lighting": {"type": "basic", "lights": [{"position": {"x": -3, "y": -2, "z": 5}, "color": {"gray": 128}}]}
+}

@@ -1,0 +1,24 @@
+{
+    "scene": {
+              "type": "difference",
+              "a":
+                {"type": "sphere",
+                 "radius": 135,
+                 "center": {"x": 20, "y": 300, "z": 0},
+                 "material": {"ka": 0.1, "kd": 0.6, "ks": 0, "reflectiveness": 0, "color": {"color": 255}}},
+                "b":
+                {"type": "sphere",
+                 "radius": 135,
+                 "center": {"x": 21, "y": 299, "z": 0},
+                 "material": {"ka": 0.2, "kd": 0.6, "ks": 0, "reflectiveness": 0, "color": {"color": 255}}}     
+    },
+    "background": {"black": 128},
+    "reflections": 3,
+    "lighting": {"type": "phong", "ambient": {"color": 128}, "shadows": true,
+                 "lights": [{"position": {"x": 500, "y": 0, "z": -100}, "color": {"r": 255, "g": 0, "b": 0}},
+                            {"position": {"x": 50, "y": 0, "z": -100}, "color": {"r": 0, "g": 0, "b": 255}},
+                            {"position": {"x": 300, "y": 0, "z": 150}, "color": {"r": 0, "g": 255, "b": 0}},
+                            {"position": {"x": -1300, "y": 1300, "z": 0}, "color": {"r": 255, "g": 0, "b": 255}}
+                 ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "scene": {
+              "type": "union",
+              "children": [
+                {"type": "sphere",
+                 "radius": 135,
+                 "center": {"x": 60, "y": 300, "z": 0},
+                 "material": {"ka": 0.2, "kd": 0.6, "ks": 0, "type": "textured", "texture": "lava.jpg"}},
+                {"type": "sphere",
+                 "radius": 20,
+                 "center": {"x": -70, "y": 125, "z": 50},
+                 "material": {"ka": 0.5, "kd": 0.8, "ks": 0.2, "type": "textured", "texture": "deathstar.png"}}
+                 ]
+             },
+    "camera": {"x": 0, "y": 0, "z": 0},
+    "view": {"x": 0, "y": 1, "z": 0},
+    "background": {"black": 128},
+    "fov": 120,
+    "reflections": 0,
+    "lighting": {"type": "phong", "ambient": {"color": 255},
+                "lights": [{"position": {"x": -71, "y": -124, "z": 51}}]}
+}
